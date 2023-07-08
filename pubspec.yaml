@@ -1,0 +1,43 @@
+name: namer_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  get: ^4.6.5
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: "assets/image/flower.jpg"
+  remove_alpha_ios: true
+
+flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/flower.jpg
+
+fonts:
+  - family: NanumMyeongjo
+    fonts:
+      - asset: assets/font/NanumMyeongjo-Bold.ttf
+      - asset: assets/font/NanumMyeongjo-Extra.ttf
+      - asset: assets/font/NanumMyeongjo-Regular.ttf
