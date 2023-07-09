@@ -42,7 +42,7 @@ class _MainPageState extends State<MainPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Main Page',
+          'testGram',
           style: TextStyle(
               fontFamily: 'NanumMyeongjo', fontSize: 30, color: Colors.black),
         ),
